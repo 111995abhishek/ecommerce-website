@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './components/header';
 import  './default.scss';
+import HomePage from './Pages/homepage/HomePage';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>welcome to the ecommerce website</h1>
+      <HomePage/>
     </div>
   );
 }
